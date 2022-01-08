@@ -1,0 +1,69 @@
+@import "~bulma/sass/utilities/_all";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+// Set your colors
+$primary: #8c67ef;
+$info: #FF993B;
+// Lists and maps
+
+$family-primary: "Roboto";
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+$colors: mergeColorMaps(
+                (
+                        "white": (
+                                $white,
+                                $black,
+                        ),
+                        "black": (
+                                $black,
+                                $white,
+                        ),
+                        "light": (
+                                $light,
+                                $light-invert,
+                        ),
+                        "dark": (
+                                $dark,
+                                $dark-invert,
+                        ),
+                        "primary": (
+                                $primary,
+                                $primary-invert,
+                                $primary-light,
+                                $primary-dark,
+                        ),
+                        "link": (
+                                $link,
+                                $link-invert,
+                                $link-light,
+                                $link-dark,
+                        ),
+                        "info": (
+                                $info,
+                                $info-invert,
+                                $info-light,
+                                $info-dark,
+                        ),
+                        "success": (
+                                $success,
+                                $success-invert,
+                                $success-light,
+                                $success-dark,
+                        ),
+                        "warning": (
+                                $warning,
+                                $warning-invert,
+                                $warning-light,
+                                $warning-dark,
+                        ),
+                        "danger": (
+                                $danger,
+                                $danger-invert,
+                                $danger-light,
+                                $danger-dark,
+                        ),
+                ),
+                $custom-colors
+);
+$steps-color:$primary;
+@import "~bulma/bulma";
+@import '~@oruga-ui/theme-bulma/dist/scss/bulma';

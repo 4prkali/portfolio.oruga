@@ -5,10 +5,15 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "deploy.sh"
   },
   "dependencies": {
+    "@oruga-ui/oruga-next": "^0.4.8",
+    "@oruga-ui/theme-bulma": "^0.1.5",
     "core-js": "^3.6.5",
+    "sass": "^1.46.0",
+    "sass-loader": "^10.1.1",
     "vue": "^3.0.0"
   },
   "devDependencies": {
