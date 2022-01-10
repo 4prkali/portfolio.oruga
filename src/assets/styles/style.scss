@@ -4,8 +4,16 @@
 $primary: #8c67ef;
 $info: #FF993B;
 // Lists and maps
+@font-face {
+  font-family: Chunkfive;
+  src: url('MonoLisa-Regular.ttf');
+}
 
-$family-primary: "Roboto";
+
+$family-primary: Chunkfive;
+$button-hover-border-color:  hsl(28,100%,61%);
+$link-focus-border: hsl(28,100%,61%);
+$button-focus-box-shadow-color: hsla(28,100%,61%,0.25);
 // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: mergeColorMaps(
                 (
