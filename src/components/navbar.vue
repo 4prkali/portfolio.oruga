@@ -11,19 +11,17 @@
       <div class="navbar-menu">
         <div class="navbar-end">
           <div class="navbar-item">
-            <o-button>Home</o-button>
+            <a class="has-text-black" href="#">Home</a>
           </div>
           <div class="navbar-item">
-            <o-button>Projects</o-button>
-
+            <a  class="has-text-black" href="#">Projects</a>
           </div>
           <div class="navbar-item">
-            <o-button>Tools</o-button>
+            <a href="#" class="has-text-black">Tools</a>
           </div>
         </div>
       </div>
     </div>
-
   </nav>
 </template>
 
