@@ -4,7 +4,7 @@
       <div class="navbar-brand">
         <div class="navbar-item">
           <img :src="require('@/assets/logoARM.png')">
-          <div class="has-text-black ml-4">Alberto Roselló Martín</div>
+          <div class="has-text-black ml-4">Alberto Roselló Martín </div>
         </div>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
