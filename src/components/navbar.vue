@@ -21,7 +21,7 @@
             <router-link class="has-text-black" to="/">Home</router-link>
           </div>
           <div class="navbar-item">
-            <router-link class="has-text-black" to="/about">Projects</router-link>
+            <router-link class="has-text-black" to="/projects">Projects</router-link>
           </div>
           <div class="navbar-item">
             <router-link class="has-text-black" to="/tools">Tools</router-link>
