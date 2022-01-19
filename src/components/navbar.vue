@@ -18,13 +18,13 @@
         </div>
         <div class="navbar-end">
           <div class="navbar-item">
-            <router-link class="has-text-black" to="/">Home</router-link>
+            <router-link class="has-text-black" to="/portfolio.oruga/">Home</router-link>
           </div>
           <div class="navbar-item">
-            <router-link class="has-text-black" to="/projects">Projects</router-link>
+            <router-link class="has-text-black" to="/portfolio.oruga/projects">Projects</router-link>
           </div>
           <div class="navbar-item">
-            <router-link class="has-text-black" to="/tools">Tools</router-link>
+            <router-link class="has-text-black" to="/portfolio.oruga/tools">Tools</router-link>
           </div>
         </div>
       </div>
