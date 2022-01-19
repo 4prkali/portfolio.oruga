@@ -15,6 +15,11 @@ npm run serve
 npm run build
 ```
 
+### Deploy build on gh-pages
+```
+npm run deploy
+```
+
 ### Lints and fixes files
 ```
 npm run lint

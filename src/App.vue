@@ -1,21 +1,13 @@
 <template>
   <navbar></navbar>
-  <main-view></main-view>
+  <router-view/>
 </template>
 
+<style lang="scss">
+</style>
 <script>
-
-import MainView from "@/components/mainView";
-import Navbar from "@/components/navbar";
+import Navbar from "./components/navbar";
 export default {
-  name: 'App',
-  components: {
-    Navbar,
-    MainView
-  }
+  components: {Navbar}
 }
 </script>
-
-<style>
-
-</style>

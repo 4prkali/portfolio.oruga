@@ -18,13 +18,13 @@
         </div>
         <div class="navbar-end">
           <div class="navbar-item">
-            <a class="has-text-black" href="#">Home</a>
+            <router-link class="has-text-black" to="/">Home</router-link>
           </div>
           <div class="navbar-item">
-            <a  class="has-text-black" href="#">Projects</a>
+            <router-link class="has-text-black" to="/about">Projects</router-link>
           </div>
           <div class="navbar-item">
-            <a href="#" class="has-text-black">Tools</a>
+            <router-link class="has-text-black" to="/tools">Tools</router-link>
           </div>
         </div>
       </div>
