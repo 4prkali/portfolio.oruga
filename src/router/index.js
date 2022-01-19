@@ -11,7 +11,7 @@ const routes = [
     redirect: {name: 'Home'}
   },
   {
-    path: '/portfolio.oruga/home',
+    path: '/home',
     name: 'Home',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -19,7 +19,7 @@ const routes = [
     component: Home
   },
   {
-    path: '/portfolio.oruga/projects',
+    path: '/projects',
     name: 'Projects',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
@@ -27,7 +27,7 @@ const routes = [
     component: Projects
   },
   {
-    path: '/portfolio.oruga/tools',
+    path: '/tools',
     name: 'Tools',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
