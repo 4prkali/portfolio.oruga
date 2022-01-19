@@ -1,4 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import Home from "../views/Home";
+import Projects from "../views/Projects";
+import Tools from "../views/Tools.vue";
+
+
 
 const routes = [
   {
@@ -6,12 +11,12 @@ const routes = [
     redirect: {name: 'Home'}
   },
   {
-    path: '/portfolio.oruga/',
+    path: '/portfolio.oruga/home',
     name: 'Home',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "projects" */ '../views/Home.vue')
+    component: Home
   },
   {
     path: '/portfolio.oruga/projects',
@@ -19,7 +24,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "projects" */ '../views/Projects.vue')
+    component: Projects
   },
   {
     path: '/portfolio.oruga/tools',
@@ -27,7 +32,7 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/Tools.vue')
+    component: Tools
   }
 ]
 

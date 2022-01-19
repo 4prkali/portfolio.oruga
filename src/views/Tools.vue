@@ -1,13 +1,9 @@
 <template>
-<div class="title"> Tools window</div>
+  <div class="hero is-fullheight-with-navbar">
+    <div class="hero-body">
+      <div class="container">
+        <div class="title has-text-black has-text-centered" >Page currently on maintenance</div>
+      </div>
+    </div>
+  </div>
 </template>
-
-<script>
-export default {
-  name: "Tools"
-}
-</script>
-
-<style scoped>
-
-</style>

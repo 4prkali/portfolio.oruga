@@ -14,10 +14,10 @@
             <div class="has-text-centered-mobile">
               <o-button class="mt-5 mr-2">Email me</o-button>
               <a v-on:click="github" class="button is-white mt-5">
-                <img :src="require('@/assets/github.png')" style="width:32px">
+                <img :src="require('@/assets/github.png')" style="width:32px" alt="lg_github">
               </a>
               <a v-on:click="linkedin" class="button is-white mt-5">
-                <img :src="require('@/assets/logotipo-de-linkedin.png')" style="width:32px">
+                <img :src="require('@/assets/logotipo-de-linkedin.png')" style="width:32px" alt="lg_linkedin">
               </a>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default {
       window.location.href = "https://www.linkedin.com/in/albertorosellomartin/";
     },
     github: function (){
-      window.location.href = "https://github.com/AprKali";
+      window.location.href = "https://github.com/4prKali";
     }
   },
   components: {}

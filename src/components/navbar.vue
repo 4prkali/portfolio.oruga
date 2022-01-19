@@ -18,7 +18,7 @@
         </div>
         <div class="navbar-end">
           <div class="navbar-item">
-            <router-link class="has-text-black" to="/portfolio.oruga/">Home</router-link>
+            <router-link class="has-text-black" to="/portfolio.oruga/home">Home</router-link>
           </div>
           <div class="navbar-item">
             <router-link class="has-text-black" to="/portfolio.oruga/projects">Projects</router-link>
